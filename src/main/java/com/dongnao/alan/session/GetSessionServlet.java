@@ -45,7 +45,6 @@ public class GetSessionServlet extends HttpServlet {
         request.getSession();
         // TODO Auto-generated method stub
         HttpSession session = request.getSession();
-        
         System.out.println("userName : " + session.getAttribute("userName"));
         System.out.println("age : " + session.getAttribute("age"));
         System.out.println("session 获取成功！");
